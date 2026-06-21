@@ -26,6 +26,12 @@ Build the project using CMake:
 cmake --build . --config Release
 ```
 *   **Patience**: Be prepared! This process can take more than 40 minutes depending on your hardware.
+You can decrease the time by:
+```
+cmake --build . --config Release --parallel 8
+``` 
+8 - number of cores.
+
 *   **Warnings**: Don't worry too much about "yellow warnings"—they are usually informational and fine.
 
 **4. Verification**
