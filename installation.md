@@ -58,10 +58,10 @@ The build system needs specific files from the CUDA installation. You must copy 
     `C:\Program Files (x86)\Microsoft Visual Studio\20xx\BuildTools\MSBuild\Microsoft\VC\vXXX\BuildCustomizations`
 *   **Visual Studio Community/Professional**:
     `C:\Program Files (x86)\Microsoft Visual Studio\20xx\Community\MSBuild\Microsoft\VC\vXXX\BuildCustomizations`
-
+![CUDA files](images/cuda_files.png)
 > **⚠️ ATTENTION!**
 > In some cases, these files might *already* exist in your folders. If they are present, **you can skip this copy step.**
-
+![Already exists](images/vs_with_cuda.png)
 
 
 

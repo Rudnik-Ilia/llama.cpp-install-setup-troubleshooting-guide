@@ -2,7 +2,6 @@
 
 Before running, navigate to the directory where `llama-server` is located:
 - **Windows:** `C:\llama.cpp\build\bin\Release`
-- **Linux/macOS:** (Navigate to the directory above, then use the command below)
 
 **Execution Command:**
 Run the server using the following command. Adjust `path_to_model.gguf`, `ngl`, `c`, `host`, and `port` as needed.
