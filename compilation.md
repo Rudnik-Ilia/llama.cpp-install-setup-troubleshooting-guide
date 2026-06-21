@@ -33,7 +33,7 @@ You can decrease the time by adding:
 ```
 --parallel 8
 ``` 
-8 - number of cores.
+8 - number of cores(logical).
 
 *   **Warnings**: Don't worry too much about "yellow warnings"—they are usually informational and fine.
 
