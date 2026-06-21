@@ -1,7 +1,7 @@
 # Llama.cpp Project Guide (Windows & CUDA Optimized)
 
 This guide is specifically designed for users who want to set up and run **Llama.cpp on Windows**, with a strong focus on **CUDA-based GPU acceleration**.
-
+![llama](/images/llama.png)
 This repository was created based on my personal experience, including many hours spent troubleshooting installation, compilation, configuration, and performance issues on an **NVIDIA RTX 4050** system. During that process, I discovered that useful information was often scattered across GitHub issues, discussions, forums, Reddit posts, and various guides.
 
 The goal of this repository is to collect practical knowledge, real-world solutions, and lessons learned in a single place. I aim to keep the information **clear, concise, and easy to navigate**, while still providing enough technical depth to help users solve problems efficiently without overwhelming them with unnecessary details.
