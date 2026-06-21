@@ -19,6 +19,8 @@ Run CMake from within the `build` directory to configure the project. This examp
 cmake .. -G "Visual Studio 16 2019" -A x64 -DLLAMA_CUDA=ON -DGGML_VULKAN=OFF -DLLAMA_CURL=ON -DLLAMA_OPENSSL=ON -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_GENERATOR_TOOLSET="cuda=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\vXX.X"
 ```
 *   **Note**: Replace `vXX.X` with your installed CUDA version (e.g., `v12.8`).
+*   **Note**: Additional flags ans meannings:
+[Open CMake command](../compilation_stage/compilation_flags.md)
 
 **3. Build the Project**
 
