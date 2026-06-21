@@ -6,6 +6,10 @@ This repository was created based on my personal experience, including many hour
 
 The goal of this repository is to collect practical knowledge, real-world solutions, and lessons learned in a single place. I aim to keep the information **clear, concise, and easy to navigate**, while still providing enough technical depth to help users solve problems efficiently without overwhelming them with unnecessary details.
 
+This project was originally inspired by and based on this video: 
+YouTube video inspiration
+[YouTube video inspiration](https://www.youtube.com/watch?v=L4yNhSX2ihs&t=2294s)
+
 ## Community Contributions Welcome
 
 If you have experience with Llama.cpp, your contributions are highly appreciated.

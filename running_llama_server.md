@@ -6,10 +6,16 @@ Before running, navigate to the directory containing `llama-server`:
 **Execution Command:**
 Execute the server using the following command. Adjust the parameters (`path_to_model.gguf`, `ngl`, `c`, `host`, and `port`) as necessary:
 
-\`\`\`bash
-./llama-server -m path_to_model.gguf -ngl 999 -c 4096 --host 0.0.0.0 --port 8080
-\`\`\`
 
+```bash
+# Command to run llama server
+.\llama-server -m path_to_model.gguf -ngl 999 -c 4096 --host 0.0.0.0 --port 8080
+```
+or 
+```bash
+
+.\llama-server.exe -m path_to_model.gguf -ngl 999 -c 4096 --host 0.0.0.0 --port 8080
+```
 **Expected Output:**
 Upon successful execution, you should see the server initializing and loading the model onto your video card (CUDA0).
 
