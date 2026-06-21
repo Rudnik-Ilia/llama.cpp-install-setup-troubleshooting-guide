@@ -6,7 +6,6 @@ Before running, navigate to the directory containing `llama-server`:
 **Execution Command:**
 Execute the server using the following command. Adjust the parameters (`path_to_model.gguf`, `ngl`, `c`, `host`, and `port`) as necessary:
 
-
 ```bash
 # Command to run llama server
 .\llama-server -m path_to_model.gguf -ngl 999 -c 4096 --host 0.0.0.0 --port 8080

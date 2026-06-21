@@ -8,6 +8,7 @@ Navigate to your `llama.cpp` folder and create a build directory:
 ```bash
 # Command executed in the llama.cpp directory
 mkdir build
+cd build
 ```
 
 **2. CMake Configuration & Generation**
@@ -26,9 +27,9 @@ Build the project using CMake:
 cmake --build . --config Release
 ```
 *   **Patience**: Be prepared! This process can take more than 40 minutes depending on your hardware.
-You can decrease the time by:
+You can decrease the time by adding:
 ```
-cmake --build . --config Release --parallel 8
+--parallel 8
 ``` 
 8 - number of cores.
 
