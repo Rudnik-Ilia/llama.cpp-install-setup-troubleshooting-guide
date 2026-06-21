@@ -20,7 +20,7 @@ cmake .. -G "Visual Studio 16 2019" -A x64 -DLLAMA_CUDA=ON -DGGML_VULKAN=OFF -DL
 ```
 *   **Note**: Replace `vXX.X` with your installed CUDA version (e.g., `v12.8`).
 *   **Note**: Additional flags ans meannings:
-[Open CMake command](../compilation_stage/compilation_flags.md)
+[Open CMake command](/compilation_stage/compilation_flags.md)
 
 **3. Build the Project**
 
