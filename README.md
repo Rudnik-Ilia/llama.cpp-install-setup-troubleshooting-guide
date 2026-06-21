@@ -22,9 +22,7 @@ Whether you have:
 
 please feel free to open a **Pull Request**, create an **Issue**, or share information directly.
 
-I am especially interested in practical knowledge about how to **properly and efficiently compile and run Llama.cpp**.
-
-Useful contributions may include:
+I am especially interested in practical knowledge about how to **properly and efficiently compile and run Llama.cpp**, including:
 
 * Recommended compilation flags and build options
 * Runtime parameters and their impact on performance
@@ -33,13 +31,13 @@ Useful contributions may include:
 * Quantization recommendations for different hardware
 * Memory and VRAM optimization techniques
 * Benchmark results and performance comparisons
-* Explanations of how specific flags affect speed, memory consumption, model quality, GPU utilization, and overall system performance
+* Explanations of how specific flags affect speed, memory usage, GPU utilization, and model behavior
 
-Whenever possible, please include details about your hardware, software environment, test methodology, and the reasoning behind your recommendations. Real-world examples are extremely valuable because they help others understand not only *what* works, but also *why* it works.
+Feel free to share information in **any form that is convenient for you** — notes, benchmarks, screenshots, logs, links, GitHub issues, pull requests, or even rough observations.
 
-Even if you have encountered an issue that remains unsolved, sharing the details may help others facing the same problem.
+Even unsolved issues are valuable and may help others facing the same problem.
 
-All useful contributions will be reviewed and, whenever possible, incorporated into the repository in a structured and easy-to-understand format. The objective is to build a practical knowledge base that helps both beginners and experienced users work with Llama.cpp more effectively.
+I will review, organize, and structure all useful contributions to keep this repository clear, practical, and easy to navigate.
 
 ## What This Repository Provides
 
