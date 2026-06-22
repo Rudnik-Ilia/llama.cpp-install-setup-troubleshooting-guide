@@ -1,0 +1,24 @@
+# Compiled binaries and object files
+*.o
+*.bin
+*.exe
+*.so
+
+# Build directories
+build/
+bin/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Python virtual environment
+venv/
+env/
+
+# Logs
+*.log
+
+# CMake cache
+CMakeFiles/
+run.txt

@@ -58,6 +58,8 @@ Best choise according ChatGpt:
 
 -DBUILD_SHARED_LIBS=OFF - Faster static binary execution (less overhead on Windows)
 
--DGGML_BACKEND_DL=ON - Allows flexible backend loading (CUDA/CPU hybrid safety)
+-DGGML_BACKEND_DL=ON - Allows flexible backend loading (CUDA/CPU hybrid safety) load CUDA/Vulkan backends dynamically at runtime
 
 -DGGML_LLAMAFILE=ON - Faster prompt ingestion and CPU-side optimizations
+
+-DCMAKE_CUDA_ARCHITECTURES="120"
